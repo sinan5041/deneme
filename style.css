@@ -1,0 +1,91 @@
+.image-container {
+    text-align: start;
+    position: relative;
+    width: 225px;
+    height: 300px;
+    overflow: hidden;
+    border: 4px solid #ccc;
+
+}
+
+.image-container img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#image1 {
+    clip-path: inset(0 0 0 0);
+}
+
+#image2 {
+    clip-path: inset(0 100% 0 0);
+}
+
+.slider-container {
+    margin-top: 20px;
+    width: 225px;
+}
+
+.slider {
+    width: 100%;
+}
+
+.for-name-font {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 42px;
+    margin-top: 10px;
+    display: inline-block;
+    font-weight: 100;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-image: url('backgr.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: bisque;
+    font-weight: 100;
+    overflow-x: hidden;
+}
+
+.emoji {
+    width: 100px;
+    height: auto;
+    display: inline-block;
+    margin-left: 5px;
+
+}
+
+.backgr {
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    height: 50vh;
+    z-index: 0;
+}
+
+.font2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 42px;
+    font-weight: 100;
+}
+
+.sticker {
+    width: 2%;
+    float: left;
+    margin-left: 25px;
+    display: inline-block;
+}
+
+.custom-hr {
+    height: 2px;
+    background-color: black;
+    margin-left: 10px;
+}
